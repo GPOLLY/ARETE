@@ -1,0 +1,25 @@
+/* bootstrap css */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+    background-image: url('../assets/background1.jpeg');
+    box-sizing: border-box;
+    height: 735px;
+}
+nav{  
+    background-color: darkgreen; 
+    float:right;   
+}
+
+.nav ul li{
+    color: darkorange;
+    display:inline-block;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 20px;    
+}
+
+.home{
+    width: 1000px;
+    height: auto;
+}
