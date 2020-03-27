@@ -1,6 +1,7 @@
 /* bootstrap css */
 @import "~bootstrap/dist/css/bootstrap.css";
 
+/* customer css */
 body{
     background-image: url('../assets/background1.jpeg');
     box-sizing: border-box;
@@ -30,6 +31,7 @@ nav{
 }
 
 .home{
-    width: 1000px;
-    height: auto;
+    width: 1400px;
+    height: 300px;
+    margin-left: 20px;
 }
