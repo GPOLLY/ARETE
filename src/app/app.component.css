@@ -41,12 +41,18 @@ nav{
 
 .card{
     margin-left:40px ;
-    width: 1400px;
-    
+    width: 1430px;  
+    margin-top: 10px; 
 }
 
 
 .col-md-6{
     background-color: white;
+    
+}
+
+h1{
+    color: blueviolet;
+    
 }
 
