@@ -17,12 +17,11 @@ nav{
      
     float:right;   
     margin-top: 30px;
+    position: fixed;
 }
 
 .nav ul li{
-    /* background-color:white; */
     color: darkorange;
-    /* color: black; */
     display:inline-block;
     font-size: 20px;
     padding-left: 40px;
@@ -30,6 +29,9 @@ nav{
     margin-top: 70px;
     margin: 50px;
 
+}
+.background_img{
+    height: 1000px;
 }
 
 .home{
@@ -55,12 +57,22 @@ nav{
 h1{
     color: blueviolet;
     
+    
 }
 .vl {
     border-left: 1px solid green;
     height: 290px;
   }
 
+.about{
+   margin-top: 100px;
+   height: 750px; 
+}
+h3{
+    font-style: italic;
+    text-align: center;
+}
 
-
-
+.content{
+    float: right;
+}
