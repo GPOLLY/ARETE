@@ -17,6 +17,9 @@ nav{
     float:right;   
     margin-top: 30px;
     position: fixed;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
 }
 
 .nav ul li{
@@ -44,7 +47,7 @@ nav{
     margin-left:30px ;
     width: 1450px;  
     margin-top: 4px; 
-    height: 310px;
+    height: 360px;
 }
 
 
@@ -54,7 +57,7 @@ nav{
 }
 .vl {
     border-left: 1px solid green;
-    height: 290px;
+    height: 350px;
   }
 
 .about{
@@ -74,3 +77,39 @@ h3{
 .content{
     float: right;
 }
+
+.contact{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.contactimg{
+    width: 1450px;
+}
+
+.form{
+    background-color: cadetblue;
+    margin-left: 40px;
+    
+}
+input, label {
+    display:block;
+}
+
+/* label{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:30%;
+    vertical-align: bottom  
+  }
+  */
+
+input[type=text],[type = email],[type = number],[type=textarea]{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;      
+    width:50%;     
+} 
